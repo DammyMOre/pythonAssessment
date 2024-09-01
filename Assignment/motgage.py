@@ -1,23 +1,59 @@
-amount = int(input("enter amount: "))
+"""
+PSEUDO CODE
+prompt the user to enter amount to borrow
+save it as principal amount
 
-Yearly_rate = int(input("enter rate: "))
+prompt the user to enter a rate
+save it as yearly rate
 
-Duration = int(input("enter yearly duration: "))
+prompt the user to enter duration of repayment in years
+save it as duration in years
 
-Monthly_Duration = Duration *12
+store % as PERCENTAGE
+store the numbers of months in a year as MONTHSINAYEAR 
+multiply duration in years by MONTHSINAYEAR
+save it as duration in months
+divide yearly rate by PERCENTAGE by MONTHSINAYEAR
+Add 1 + rate in month ** duration in month multiplied by rate in month
+save it as rate calculator
+Add 1+ rate in month**duration in months -1
+save it as division
+divide rate calculation by division
+save as calculation 
+multiply principal amount by calculation
+save it as monthly repayment
+print monthly repayment
+"""
 
-Monthly_rate = Yearly_rate /100/12
 
-Rate =  (1 + Monthly_rate)**120
 
-cal = Monthly_rate * Rate
 
-Division = (1 + Monthly_rate)**120 
 
-Divide = Division - 1
+principalamount = float(input("enter amount: "))
+yearlyrate = int(input("enter rate: "))
+durationinyears = int(input("enter yearly duration: "))
 
-Calculation = cal / Divide
+PERCENTAGE = 100
+MONTHSINAYEAR = 12
 
-Monthly_repayment = amount * Calculation
+durationinmonth = durationinyears *MONTHSINAYEAR 
 
-print(Monthly_repayment)
+rateinmonth= yearlyrate /PERCENTAGE/MONTHSINAYEAR 
+
+ratecalculation = rateinmonth * ((1 + rateinmonth)**durationinmonth)
+
+division = ((1 + rateinmonth)**durationinmonth)-1
+
+calculation = ratecalculation / division
+
+monthlyrepayment = principalamount  * calculation
+
+print("monthlyrepayment is $",round (monthlyrepayment, 2))
+
+
+
+
+
+"""
+ratecalculation = ((rateinmonth (1 + rateinmonth))**durationinmonth)/ ((1 + rateinmonth)**durationinmonth)-1
+"""

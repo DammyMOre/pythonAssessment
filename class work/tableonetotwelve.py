@@ -10,8 +10,7 @@ print()
 for numbers in range(1, 13, 1):
 
 	for table in range(1, 13, 1):
-
-		print(numbers,"*",table,"=",numbers*table,"  ")
+		print(numbers,"*",table,"=",numbers*table, end= " ")
 
 	print()
-	print(end=" ")
+	

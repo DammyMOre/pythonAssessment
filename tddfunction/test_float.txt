@@ -1,0 +1,6 @@
+import unittest
+import float
+
+class Float(unittest.TestCase):
+	def test_that_only_float_function_exist(self):
+		float.only_float(150, 15)

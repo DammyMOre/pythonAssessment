@@ -19,7 +19,7 @@ sum_odd_position = 0
 multiply_third_position = 1
 total = 0
 average = 0
-
+positions = []
 for positions in range(1,11,1):
 	numbers = random.randint(1,50)
 	print(numbers)

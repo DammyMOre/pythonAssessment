@@ -13,7 +13,12 @@ second_number = int(input("Enter first number: "))
 third_number = int(input("Enter first number: "))
 
 smallest == first_number
-if second_number < first_number: 
+if second_number < first_number and second_number < third_number:
+ print(third_number, second_number first_number )
+elif  third_number < second_number and second_number < first_number:
+
+
+
 smallest == second_number 	
 
 elif third_number< second_number:
@@ -22,10 +27,4 @@ smallest == third_number
 	print(third_number, first_number, second_number )
 
 
-
-"""
-el
-	print(second_number < third_number
-
-"""
 

@@ -7,12 +7,10 @@ menu="""
 what will u like to do?
 """
 ballance =0
+#while menu != 0: 
+	if menu==1:
+		deposit = input("how much will you like to deposit")
+		ballance += deposit
+print(ballance)
 
-while True:
-	options= int(input(menu))
-if options==1:
-	deposit = int(input("how much will you like to deposit"))
-	ballance += deposit
-	print("your ballance is: ", ballance)
-	
 

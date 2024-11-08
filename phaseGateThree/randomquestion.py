@@ -27,8 +27,6 @@ for times in range(1,4,1):
 		print("you are wrong")
 	
  
-#final_score1 = correct
-#final_score2 = wrong
 
 if correct > wrong:
 	print("Your final score is: ", correct)

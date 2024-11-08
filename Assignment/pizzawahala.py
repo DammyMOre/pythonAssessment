@@ -16,8 +16,6 @@ print number_of_guess /12
 '''
 
 
-
-
 menu_list = """
 
 pizza type     Number of Slices     price per box
@@ -33,7 +31,6 @@ Odogwu                 12                 4200
 
 """
 print(menu_list)
-
 
 
 number_of_guest = int(input("Enter number of guest: "))

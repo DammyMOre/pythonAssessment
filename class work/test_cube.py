@@ -11,3 +11,6 @@ class TestCube(unittest.TestCase):
 
 	def test_that_cube_function_raise_error_with_negative_amount(self):
 		self.assertRaises(ValueError, cube.get_cube, -3)
+	
+	def test_that_cube_function_returns_error_with_string_value(self):
+		self.assertRaises(TypeError, cube.get_cube,"byte")

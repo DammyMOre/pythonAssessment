@@ -14,7 +14,7 @@ what will u like to do:
 3. Ballance
 """
 print (page)
-while options:=int(input(page)):
+while options:=input(page):
 	ballance = 0
 	if options == 1:
 		depositamount = float(input("enter amount to deposit"))

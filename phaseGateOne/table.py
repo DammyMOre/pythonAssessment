@@ -1,8 +1,10 @@
-print ("a" "    " "b" "    " "a**b")
 for a in range(1, 6, 1):
-	print (a)
-for b in range(2, 7, 1):
-	print (a, "  ",b ,"   ", a**b)
+	print(a,)
 
-#result = a**b
-#print(result)
+for b in range(2, 7, 1):
+	print (b)
+
+"""
+	#print (b)
+	#result = a**b
+"""

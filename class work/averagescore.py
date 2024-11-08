@@ -14,14 +14,12 @@ save as average
 display average
 
 """
-score = 0
-total = 0
-count = 0
 
+total = 0
+count = 1
 while score!=-1:
-	score = float(input("enter score or -1 to quit: "))
+	score = float(input("enter score: "))
 	total+=score
 	count+=1
-	if(count!= 0):
-		average = total /count
+	average = total /count
 print("average is: ", average)

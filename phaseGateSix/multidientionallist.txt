@@ -1,0 +1,13 @@
+#collect_row = int(input("enter row: "))
+#collect_colomn = int(input("enter colomn: "))
+
+
+input = [[0]*4]*5
+
+
+
+for row in range(len(input)):
+	for colomn in range (len(input[row])): 
+		print (input[row][colomn] , end = "  ")
+
+	print()

@@ -1,0 +1,24 @@
+"""
+pseudo code
+collect price, save as price
+collect discount, save as discount
+initialize PERCENTAGE to 100
+divide discount by PERCENTAGE
+save as percentage_discount
+multiply percentage_discount by price
+save as discounted
+subtract discounted from price
+save as discounted_price
+display result
+"""
+)
+	
+
+
+
+
+
+class DollarToNaira(unittest.TestCase):
+	def test_that_dollartonaira_function_exist(self):
+		dollartonaira.get_dollartonaira(1550)
+

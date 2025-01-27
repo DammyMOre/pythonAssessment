@@ -30,7 +30,7 @@ def go_to_phone_menu():
 	print(menu)
 
 	phone_menu = int(input("enter a number: "))
-		if phone_menu == 1:
+	if phone_menu == 1:
 			print ('''
 			phone Book :
 			1. Search
